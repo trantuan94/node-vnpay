@@ -1,0 +1,20 @@
+{
+  "name": "node-vnpay",
+  "version": "1.0.0",
+  "description": "nodejs vnpay paymentgateway vnpayqr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "vnpay",
+    "payment",
+    "vnpayqr"
+  ],
+  "author": "Tran Tuan",
+  "license": "MIT",
+  "dependencies": {
+    "simpl-schema": "^1.7.2"
+  }
+}
