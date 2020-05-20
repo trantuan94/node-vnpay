@@ -2,8 +2,9 @@
 const querystring = require('qs');
 
 class Utils {
-    static hash (data, algorithm = 'sha256') {
+    static  hash (data, algorithm = 'sha256') {
         let encryptor = require(algorithm);
+        return encryptor(data);
     }
 
     static sortObject (obj) {
@@ -42,6 +43,10 @@ class Utils {
         request.connection.socket.remoteAddress;
 
         return ipAddr;
+    }
+
+    static makeUrlParams (params) {
+        return querystring.stringify(params, { encode: true });
     }
 }
 module.exports = Utils;
