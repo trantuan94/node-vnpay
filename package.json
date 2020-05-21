@@ -1,6 +1,6 @@
 {
   "name": "node-vnpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Support Generate VNPAY URL for payment on NodeJS",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,13 @@
   },
   "devDependencies": {
     "mocha": "^7.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trantuan94/node-vnpay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trantuan94/node-vnpay/issues"
+  },
+  "homepage": "https://github.com/trantuan94/node-vnpay#readme"
 }
