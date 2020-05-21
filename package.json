@@ -1,10 +1,10 @@
 {
   "name": "node-vnpay",
   "version": "1.0.0",
-  "description": "nodejs vnpay paymentgateway vnpayqr",
+  "description": "Support Generate VNPAY URL for payment on NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "nodejs",
@@ -15,6 +15,15 @@
   "author": "Tran Tuan",
   "license": "MIT",
   "dependencies": {
+    "external-ip": "^2.3.1",
+    "md5": "^2.2.1",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.31",
+    "qs": "^6.9.4",
+    "sha256": "^0.2.0",
     "simpl-schema": "^1.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2"
   }
 }
